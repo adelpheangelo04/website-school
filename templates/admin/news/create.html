@@ -1,0 +1,14 @@
+{% extends "layouts/admin_base.html" %}
+
+{% block title %}Create News{% endblock %}
+
+{% block content %}
+<h2>Create New News</h2>
+<form method="post">
+    <label>Title:</label>
+    <input type="text" name="title">
+    <label>Content:</label>
+    <textarea name="content"></textarea>
+    <button type="submit">Create</button>
+</form>
+{% endblock %}

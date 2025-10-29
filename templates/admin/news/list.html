@@ -1,0 +1,11 @@
+{% extends "layouts/admin_base.html" %}
+
+{% block title %}News List{% endblock %}
+
+{% block content %}
+<h2>Manage News</h2>
+<a href="{{ url_for('admin.create_news') }}">Add New News</a>
+<ul>
+    <!-- List news items -->
+</ul>
+{% endblock %}
